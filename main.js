@@ -44,3 +44,29 @@ let y = 10
 let z = 5
 let x = z + y
 x = z * y
+
+// // Iteracion 4
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+ 
+console.log(avengers[0])
+ 
+avengers[0] = "IRONMAN"
+ 
+alert(avengers.length)
+ 
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+ 
+rickAndMortyCharacters.push("Morty", "Summer")
+ 
+console.log[rickAndMortyCharacters[rickAndMortyCharacters.length]]
+ 
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+ 
+rickAndMortyCharacters.pop()
+console.log(rickAndMortyCharacters[0])
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length])
+ 
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+ 
+rickAndMortyCharacters.splice(1, 1)
+console.log(rickAndMortyCharacters)
